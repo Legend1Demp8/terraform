@@ -9,7 +9,8 @@
 ## Условие 1
 ### Несколько модулей. 
 ### Решение
-<img width="419" height="190" alt="image" src="https://github.com/user-attachments/assets/4e76dbe9-ece9-4194-92a6-81536dfdd845" />
+<img width="419" height="190" alt="image" src="https://github.com/user-attachments/assets/4e76dbe9-ece9-4194-92a6-81536dfdd845" /> 
+
 Модулей три: 
 - network (Создание сети)
 - disks (Создание дисков)
