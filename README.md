@@ -39,7 +39,7 @@
 ## Условие 4
 ### Модуль разворачивает две VM: web и api, а также список дисков, подключённых к api c помощью блока dynamic обе подключены к подсети default-ru-central1-a через data.yandex_vpc_subnet.default_subnet без публичных IP (nat = false)
 ### Решение
-Зона A капризничает на кол-во дисков, я ушел в D не вижу тут проблем
+Зона A капризничает на кол-во дисков, я ушел в D не вижу тут проблем \
 Две VM (Публичный IP пропуск потому что nat = false)
 <img width="1623" height="261" alt="image" src="https://github.com/user-attachments/assets/de7cf2cd-643a-44d0-9093-972c88fa29fe" />
 Диски только к машине API
