@@ -1,0 +1,32 @@
+env = "prod"
+vpc_name="prod"
+default_zone = "ru-central1-d"
+default_cidr = ["10.0.1.0/24"]
+extra_disk_names = ["logs", "backup"]
+extra_disk_type = "network-hdd"
+extra_disk_size = 5
+
+vm_specification = {
+  web = {
+    cores           = 2
+    memory          = 4
+    core_fraction   = 20
+    disk_type       = "network-hdd"
+    disk_size       = 10
+    platform_id     = "standard-v2"
+    preemptible     = true
+    image_id        = "fd8bu5qanc4labigou11"
+    nat             = false
+  },
+  api = {
+    cores           = 2
+    memory          = 4
+    core_fraction   = 20
+    disk_type       = "network-hdd"
+    disk_size       = 10
+    platform_id     = "standard-v2"
+    preemptible     = true
+    image_id        = "fd8bu5qanc4labigou11"
+    nat             = false
+  }
+}
