@@ -1,6 +1,7 @@
 # Предисловие
 ## Я не использовал федеративный аккаунт, а сделал все на своем. Очень сложная схема подключения у вас
-
+<br>
+<br>
 
 # Обязательные условия выполнения
 ## Условие 1
@@ -12,7 +13,8 @@
 Файл [providers.tf]()
 
 <img width="578" height="253" alt="image" src="https://github.com/user-attachments/assets/07713253-cf0b-41ee-8416-d39df65ce615" />
-
+<br>
+<br>
 # Чеклист само проверки
 ## Условие 1
 ### В корне объявлен блок terraform с required_version и required_providers для yandex-cloud/yandex
