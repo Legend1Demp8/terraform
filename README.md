@@ -19,6 +19,10 @@
 1) Для Dev окружения ``` terraform destroy -var-file="terraform.tfvars.dev" -state="terraform.tfstate.dev" ```
 2) Для Prod окружения ``` terraform destroy -var-file="terraform.tfvars.prod" -state="terraform.tfstate.prod" ```
 
+# Пример инициализированого проекта
+<img width="1558" height="375" alt="image" src="https://github.com/user-attachments/assets/9fddffbf-a1cb-47e0-a537-b229b20d02cb" />
+Как мы видим метки дополнительно показывают на каком стенде развернуты виртуальные машины
+
 # Обязательные условия выполнения
 ## Условие 1
 ### Несколько модулей. 
