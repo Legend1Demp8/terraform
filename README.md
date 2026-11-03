@@ -5,7 +5,7 @@
 <br>
 
 # Описание проекта
-Данный проект создает два окружения dev и prod, каждое окружение использует свои параметры их можно переопределить:
+Данный проект создает два окружения dev и prod, каждое окружение использует свои параметры и их можно переопределить:
 1) Переменные для dev задаются в файле [terraform.tfvars.dev](https://github.com/Legend1Demp8/terraform/blob/main/terraform.tfvars.dev)
 2) Переменные для prod задаются в файле [terraform.tfvars.prod](https://github.com/Legend1Demp8/terraform/blob/main/terraform.tfvars.prod)
 
