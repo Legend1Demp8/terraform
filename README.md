@@ -7,8 +7,19 @@
 <br>
 
 # Описание проекта
+Данный проект создает два окружения dev и prod, каждое окружение использует свои параметры их можно переопределить:
+1) Переменные для dev задаются в файле [terraform.tfvars.dev](https://github.com/Legend1Demp8/terraform/blob/main/terraform.tfvars.dev)
+2) Переменные для prod задаются в файле [terraform.tfvars.prod](https://github.com/Legend1Demp8/terraform/blob/main/terraform.tfvars.prod)
 
+Запуск Terraform проекта выполняется следующими командами:
+1) Для Dev окружения ``` terraform apply -var-file="terraform.tfvars.dev" -state="terraform.tfstate.dev" ```
+2) Для Prod окружения ``` terraform apply -var-file="terraform.tfvars.prod" -state="terraform.tfstate.prod" ```
 
+Проект использует модульный подход, внутри модулей есть проверки для некоторых переменных, прошу ознакомиться с проверками напрямую в файлах variables.tf модулей
+
+Не забудьте в конце экспериментов освободить ресурсы командами:
+1) Для Dev окружения ``` terraform destroy -var-file="terraform.tfvars.dev" -state="terraform.tfstate.dev" ```
+2) Для Prod окружения ``` terraform destroy -var-file="terraform.tfvars.prod" -state="terraform.tfstate.prod" ```
 
 # Обязательные условия выполнения
 ## Условие 1
